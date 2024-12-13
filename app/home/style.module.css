@@ -1,0 +1,40 @@
+
+
+  .parentContainer{
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    overflow: hidden;
+    /* width: 100vw;
+    height: 100vh; */
+  
+
+  }
+  .products{
+     display: grid;
+   
+    grid-template-columns: 1fr 1fr;
+   
+    margin-right: 15px;
+    margin-top: 10px;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
+
+  }
+
+
+  .sideMenu{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 5px;
+   padding-top: 15px;
+
+  }
+  .pagination{
+    margin-top: 10px;
+
+  }
+
+ 
